@@ -7,6 +7,7 @@ Crate any element and add directive dropdown
 
 Example
 ---
+```html
 <i dropdown></i>
 <ul class="menu">
     <li>
@@ -27,3 +28,4 @@ Example
         <a href="#">option 2</a>
     </li>
 </ul>
+```
