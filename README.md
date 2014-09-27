@@ -29,3 +29,8 @@ Example
     </li>
 </ul>
 ```
+
+Dependencies
+---
+Angular.js
+JQuery.js
