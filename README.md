@@ -32,5 +32,5 @@ Example
 
 Dependencies
 ---
-Angular.js
-JQuery.js
+AngularJs
+JQuery
