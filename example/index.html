@@ -1,0 +1,79 @@
+<html ng-app="general">
+    <head>
+        <title>Angular Dropdown</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../stylesheet/style.css"/>
+    </head>
+    <body>
+        <div ng-controller="initial">
+            <button dropdown type="button" style="position: absolute;top: 0px;left: 0px;">Options 1</button>
+            <div class="dropdown">
+                <ul class="menu">
+                    <li>
+                        <a href="#">option 1</a>
+                    </li>
+                    <li>
+                        <a href="#">option 2</a>
+                    </li>
+                </ul>
+            </div>
+            
+            
+            <button dropdown type="button" style="position: absolute;top: 0px;right: 0px;">Options 2</button>
+            <div class="dropdown">
+                <ul class="menu">
+                    <li>
+                        <a href="#">option 1</a>
+                    </li>
+                    <li>
+                        <a href="#">option 2</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <button dropdown type="button" style="position: absolute;bottom: 0px;left: 0px;">Options 3</button>
+            <div class="dropdown">
+                <ul class="menu">
+                    <li>
+                        <a href="#">option 1</a>
+                    </li>
+                    <li>
+                        <a href="#">option 2</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <button dropdown type="button" style="position: absolute;bottom: 0px;right: 0px;">Options 3</button>
+            <div class="dropdown">
+                <ul class="menu">
+                    <li>
+                        <a href="#">option 1</a>
+                    </li>
+                    <li>
+                        <a href="#">option 2</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div style="width: 400px;left: 50%;top: 50%;position: absolute;height: 300px;margin-left: -200px;margin-top: -150px">
+                <h3>Dropdown</h3>
+                <xmp>
+<button type="button" dropdown>test</button>
+<ul class="menu">
+    <li>
+        <a href="#">option 1</a>
+    </li>
+    <li>
+        <a href="#">option 2</a>
+    </li>
+</ul>
+                </xmp>
+            </div>
+        </div>
+        <script type="text/javascript" src="../libs/jquery.js"></script>
+        <script type="text/javascript" src="../libs/angular.min.js"></script>
+        <script type="text/javascript" src="../dropdown.js"></script>
+        <script type="text/javascript" src="../libs/index.js"></script>
+    </body>
+</html>
